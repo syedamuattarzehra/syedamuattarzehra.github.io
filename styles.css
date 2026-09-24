@@ -43,3 +43,12 @@ footer{background:#111;color:#aaa}.footer-row{min-height:76px;display:flex;align
 .work-panel[data-work-panel="tradingbay"] .portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .work-panel[data-work-panel="tradingbay"] .work-card{min-height:330px}
 @media(max-width:900px){.name-lockup{grid-template-columns:1fr}.name-lockup span:nth-child(2),.name-lockup span:last-of-type{text-align:left!important}.work-panel[data-work-panel="tradingbay"] .portfolio-grid{grid-template-columns:1fr}}
+
+/* Exact supplied company logos */
+.exact-logos{background:#fff;grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch}
+.exact-logos .brand-logo{height:132px;min-height:132px;padding:18px 22px!important;background:#fff!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden}
+.exact-logos .brand-logo img{display:block;width:100%;height:100%;max-width:220px;max-height:88px;object-fit:contain}
+.exact-logos .buzz-black{background:#000!important}
+.exact-logos .buzz-black img{max-height:92px}
+@media(max-width:900px){.exact-logos{grid-template-columns:1fr 1fr}.exact-logos .brand-logo{height:120px;min-height:120px}}
+@media(max-width:520px){.exact-logos{grid-template-columns:1fr}.exact-logos .brand-logo{height:116px;min-height:116px}}
