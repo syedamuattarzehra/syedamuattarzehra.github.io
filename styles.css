@@ -52,3 +52,20 @@ footer{background:#111;color:#aaa}.footer-row{min-height:76px;display:flex;align
 .exact-logos .buzz-black img{max-height:92px}
 @media(max-width:900px){.exact-logos{grid-template-columns:1fr 1fr}.exact-logos .brand-logo{height:120px;min-height:120px}}
 @media(max-width:520px){.exact-logos{grid-template-columns:1fr}.exact-logos .brand-logo{height:116px;min-height:116px}}
+
+/* Neat hero alignment pass */
+.hero-stage{min-height:0;padding:38px 0 44px}
+.name-lockup{width:100%;display:grid;grid-template-columns:.92fr 1.35fr 1fr;align-items:baseline;gap:24px;margin:28px 0 34px;padding:30px 0 36px;overflow:visible}
+.name-lockup span{font-size:clamp(3.15rem,8.25vw,7.55rem);line-height:.88;white-space:nowrap}
+.name-lockup span:first-child{text-align:left!important}
+.name-lockup span:nth-child(2){text-align:center!important}
+.name-lockup span:last-of-type{text-align:right!important;padding-right:.09em!important}
+.name-note{right:.15em;bottom:9px;white-space:nowrap}
+.hero-bottom{grid-template-columns:minmax(0,1fr) auto;gap:48px;align-items:start;padding-top:22px}
+.hero-intro{display:grid;grid-template-columns:minmax(0,520px) minmax(0,390px);gap:38px;align-items:start}
+.hero-intro p,.hero-intro p:first-child,.hero-intro p:last-child{margin:0;font-size:.94rem;line-height:1.55;font-weight:400;border:0;padding:0;max-width:none}
+.hero-intro p:first-child{font-weight:600}
+.hero-contact{min-width:max-content;align-items:center}
+.work-index{line-height:1.7}
+@media(max-width:1100px){.name-lockup{gap:14px}.name-lockup span{font-size:clamp(3rem,8vw,6.8rem)}.hero-bottom{grid-template-columns:1fr}.hero-contact{justify-content:flex-start}.hero-intro{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.name-lockup{display:block;padding:24px 0}.name-lockup span{display:block!important;font-size:clamp(3.25rem,16vw,5.5rem);line-height:.9;text-align:left!important;white-space:normal}.name-lockup span:nth-child(2),.name-lockup span:last-of-type{text-align:left!important}.name-note{display:block;position:static;margin-top:18px;white-space:normal}.hero-intro{grid-template-columns:1fr;gap:12px}}
