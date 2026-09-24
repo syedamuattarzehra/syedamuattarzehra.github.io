@@ -69,3 +69,11 @@ footer{background:#111;color:#aaa}.footer-row{min-height:76px;display:flex;align
 .work-index{line-height:1.7}
 @media(max-width:1100px){.name-lockup{gap:14px}.name-lockup span{font-size:clamp(3rem,8vw,6.8rem)}.hero-bottom{grid-template-columns:1fr}.hero-contact{justify-content:flex-start}.hero-intro{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.name-lockup{display:block;padding:24px 0}.name-lockup span{display:block!important;font-size:clamp(3.25rem,16vw,5.5rem);line-height:.9;text-align:left!important;white-space:normal}.name-lockup span:nth-child(2),.name-lockup span:last-of-type{text-align:left!important}.name-note{display:block;position:static;margin-top:18px;white-space:normal}.hero-intro{grid-template-columns:1fr;gap:12px}}
+
+/* Stable company strip, no image dependency */
+.reliable-brands{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:0}
+.reliable-brands .company-name{height:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none;border-right:1px solid #ddd;background:#fff;color:#111}
+.reliable-brands .company-name:last-child{border-right:0}.company-name b{font-size:1.25rem;letter-spacing:.08em}.company-name span{font-size:.72rem;letter-spacing:.18em;margin-top:2px}
+.amber-name b{color:#c67a20}.hybrid-name b{color:#287fc0}.buzz-name{background:#050505!important;color:#fff!important}.buzz-name span{background:#d7192d;padding:2px 8px}.trading-name b:before{content:"TB";display:inline-flex;width:31px;height:31px;border:3px solid #111;align-items:center;justify-content:center;font-size:.72rem;margin-right:10px;vertical-align:middle}.trading-name b:after{content:"";display:inline-block;width:7px;height:7px;background:#2bc34a;margin-left:-99px;margin-right:92px;vertical-align:top}
+@media(max-width:900px){.reliable-brands{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.reliable-brands{grid-template-columns:1fr}.reliable-brands .company-name{height:100px;border-bottom:1px solid #ddd}}
