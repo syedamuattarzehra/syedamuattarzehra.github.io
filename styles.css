@@ -34,3 +34,12 @@ footer{background:#111;color:#aaa}.footer-row{min-height:76px;display:flex;align
 
 /* Use verified logo artwork, not invented symbols */
 .brand-logo.official-logo{background:#fff!important;overflow:hidden}.brand-logo.official-logo img{display:block;max-width:88%;max-height:68px;width:auto;height:auto;object-fit:contain}.buzz-official{background:#000!important}.buzz-official img{max-height:86px}.amber-official{font-family:'DM Sans',sans-serif;font-size:1.05rem!important;letter-spacing:.08em!important;font-weight:500;color:#111}.amber-official b{font-weight:800}.amber-symbol,.hybrid-symbol,.buzz-symbol{display:none!important}
+
+/* Name typography reset + Trading Bay emphasis */
+.name-lockup span,.name-lockup span:nth-child(2),.name-lockup span:last-of-type{font-family:'Playfair Display',serif!important;font-style:normal!important;font-weight:600!important;color:#111!important;-webkit-text-stroke:0!important;background:none!important;transform:none!important;padding:0!important;letter-spacing:-.055em!important}
+.name-lockup{grid-template-columns:1fr 1.35fr 1fr;align-items:baseline}
+.name-lockup span:nth-child(2){text-align:center!important}
+.name-lockup span:last-of-type{text-align:right!important}
+.work-panel[data-work-panel="tradingbay"] .portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.work-panel[data-work-panel="tradingbay"] .work-card{min-height:330px}
+@media(max-width:900px){.name-lockup{grid-template-columns:1fr}.name-lockup span:nth-child(2),.name-lockup span:last-of-type{text-align:left!important}.work-panel[data-work-panel="tradingbay"] .portfolio-grid{grid-template-columns:1fr}}
