@@ -77,3 +77,12 @@ footer{background:#111;color:#aaa}.footer-row{min-height:76px;display:flex;align
 .amber-name b{color:#c67a20}.hybrid-name b{color:#287fc0}.buzz-name{background:#050505!important;color:#fff!important}.buzz-name span{background:#d7192d;padding:2px 8px}.trading-name b:before{content:"TB";display:inline-flex;width:31px;height:31px;border:3px solid #111;align-items:center;justify-content:center;font-size:.72rem;margin-right:10px;vertical-align:middle}.trading-name b:after{content:"";display:inline-block;width:7px;height:7px;background:#2bc34a;margin-left:-99px;margin-right:92px;vertical-align:top}
 @media(max-width:900px){.reliable-brands{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.reliable-brands{grid-template-columns:1fr}.reliable-brands .company-name{height:100px;border-bottom:1px solid #ddd}}
+
+/* Clean company history strip. Text only until original logo files are stored as real binary assets. */
+.clean-company-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#fff;border:0}
+.clean-company-row>a,.clean-company-row>span{height:118px;display:flex;align-items:center;justify-content:center;padding:20px;text-decoration:none;background:#fff;color:#111;border-right:1px solid #ddd;font-family:'DM Sans',sans-serif;font-size:1.05rem;font-weight:700;letter-spacing:.01em;text-align:center}
+.clean-company-row>*:last-child{border-right:0}
+.clean-company-row .company-dark{background:#111;color:#fff}
+.availability{letter-spacing:.13em}
+@media(max-width:900px){.clean-company-row{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.clean-company-row{grid-template-columns:1fr}.clean-company-row>a,.clean-company-row>span{height:92px;border-right:0;border-bottom:1px solid #ddd}}
