@@ -94,3 +94,13 @@ footer{background:#111;color:#aaa}.footer-row{min-height:76px;display:flex;align
 /* Header detail requested */
 .name-lockup{border-bottom:1px solid #111!important;padding-bottom:32px!important}
 .name-lockup:before,.name-lockup:after{content:none!important;display:none!important}
+
+/* Original company logos uploaded to the repository */
+.real-logo-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#fff;align-items:stretch}
+.real-logo-card{height:132px;display:flex;align-items:center;justify-content:center;padding:20px 28px;background:#fff;border-right:1px solid #ddd;overflow:hidden}
+.real-logo-card:last-child{border-right:0}
+.real-logo-card img{display:block;width:100%;height:100%;max-width:220px;max-height:86px;object-fit:contain}
+.buzz-logo-card{background:#000}
+.buzz-logo-card img{max-height:92px}
+@media(max-width:900px){.real-logo-row{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.real-logo-row{grid-template-columns:1fr}.real-logo-card{height:112px;border-right:0;border-bottom:1px solid #ddd}}
