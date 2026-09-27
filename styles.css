@@ -90,3 +90,7 @@ footer{background:#111;color:#aaa}.footer-row{min-height:76px;display:flex;align
 /* Remove decorative rules from the opening section */
 .hero-stage,.name-lockup,.hero-bottom,.hero-intro,.hero-intro p{border-top:0!important;border-bottom:0!important}
 .name-lockup:before,.name-lockup:after,.hero-stage:before,.hero-stage:after,.hero-bottom:before,.hero-bottom:after{content:none!important;display:none!important}
+
+/* Header detail requested */
+.name-lockup{border-bottom:1px solid #111!important;padding-bottom:32px!important}
+.name-lockup:before,.name-lockup:after{content:none!important;display:none!important}
